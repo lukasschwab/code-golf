@@ -9,7 +9,7 @@
 import math
 import time
 import gmpy
-n = 2
+n = 1000000000
 while n > 0: # An intentional infinite loop
 	start = time.time()
 	test = gmpy.fac(n)+1
