@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import csv
+import unidecode
 
 '''
 This was a fun little script!
@@ -83,7 +84,7 @@ def handleFinalPage(r, url):
 	print '\033[92m' + str(finalPagesReached) + ': \033[0m' + logo_desc
 	with open('sports.csv', 'a') as out:
 		wr = csv.writer(out, quoting=csv.QUOTE_ALL)
-		wr.writerow(attrs)
+		wr.writerow([unidecode(attr) for attr in attrs])
 
 # Check if this page has a final logo
 def isFinalPage(html):
