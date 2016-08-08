@@ -22,3 +22,4 @@ I'll try to keep a description of what is what organized here, but most of this 
 + markov.py does something with letters and a markov chain. I think it generates fake words.
 + randomness-test.py determines the degree of randomness of python's pseudorandom number generator by comparing a random string to a compressed random string, to prove to myself that randomness doesn't increase with iteration.
 + sports-scraper.py scrapes sportslogos.net for sports teams logos, part of work I did with Simar Mangat @ Pavlov.
++ readme.sh generates my standard README template so I don't have to copy it by hand.
