@@ -1,0 +1,1 @@
+document.getElementsByClassName('mod-add')[0].setAttribute("style", "width: 100px;")

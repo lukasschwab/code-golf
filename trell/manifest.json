@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+
+    "name": "Trell",
+    "version": "0.0.1",
+    "description": "Set custom Trello styles",
+
+    "content_scripts": [{
+        "js": ["styles.js"],
+        "matches": ["https://trello.com/*"]
+    }]
+}
