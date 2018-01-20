@@ -25,3 +25,4 @@ I'll try to keep a description of what is what organized here, but most of this 
 + `sports-scraper.py` scrapes sportslogos.net for sports teams logos, part of work I did with Simar Mangat @ Pavlov.
 + `readme.sh` generates my standard README template so I don't have to copy it by hand.
 + `md-to-pdf.sh` uses [pandoc](http://pandoc.org/) to apply some hacky preprocessing to a markdown document before converting it to PDF with LaTeX.
++ `codecat.sh` renders Python code into a PDF, which is appended to another PDF. This is useful for [EE 16A homework](http://inst.eecs.berkeley.edu/~ee16a/sp18/).
